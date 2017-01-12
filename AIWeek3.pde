@@ -69,6 +69,8 @@ void setup()
   size(700, 600);
   notMoved=0;
   dir=0;
+  
+  //Always remember to create this font using the "Font" option under the "Tools" menu.
   font=loadFont("ArialMT-20.vlw");
 
   for (int y=0; y<14; y++) {
