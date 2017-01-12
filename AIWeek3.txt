@@ -1,0 +1,13 @@
+In this short example the we simply create an display a maze on the screen and have a red circle, the hero, 
+choose from four possible directions and then if it can move to that block it will. It also lays a large "noBacktrack" block
+on the blocks it has visited. If however it should get stuck it will destroy these and turn them in to smaller "crumbs".
+
+Once the hero completes the maze, any blocks without "crumbs" will be turned in to solid blocks as those areas are not needed
+to complete the maze.
+
+As the maze is completed it stores a "moves" count and if it goes above that "moves" count it resets it as it
+is not going to be more optimised than the last successful completion.
+
+Additionally their is a manually entered "possible" which is the lowest possible amount of moves the maze can be completed in.
+Until this number is reached it will keep, re-attempting the maze.
+
