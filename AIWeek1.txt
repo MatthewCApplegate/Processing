@@ -1,0 +1,2 @@
+In this short example the we simple create an display a maze on the screen. Copying it from the "realMaze" to the "Maze" 
+displayed on the screen. This allows us to clear the maze back to its original state if we need to. 
