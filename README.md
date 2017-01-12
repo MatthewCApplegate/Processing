@@ -1,2 +1,2 @@
-# Processsing
-Processing Examples
+# Processsing AI
+Processing AI Examples
